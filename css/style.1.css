@@ -1,14 +1,15 @@
 body {
-				font-family: sans-serrif;
-				background-image: url("https://bttm.b-cdn.net/custom/kayeet.net/15-12-2020-18:14:08-p.m..jpg");
-				background-repeat: no-repeat;
-				height: 100%;
-				background-size: cover;
+	font-family: sans-serrif;
+	background-image: url("https://bttm.b-cdn.net/custom/kayeet.net/15-12-2020-18:14:08-p.m..jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: cover;
 }
 
 .farm {
-				max-width: 13%;
+	max-width: 13%;
 }
 .human {
-				max-width: 6%;
+	max-width: 6%;
 }
