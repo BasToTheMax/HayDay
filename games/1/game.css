@@ -1,3 +1,17 @@
 body, html {
     font-family: sans-serif;
+    background-image: url('https://bttm.b-cdn.net/custom/kayeet.net/15-12-2020-18:14:08-p.m..jpg');
+}
+
+.credits {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+.myFarm {
+    max-width: 75px;
+}
+
+a {
+    color: black;
 }
