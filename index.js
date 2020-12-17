@@ -10,7 +10,7 @@ guild = data;
 console.log("game " + localStorage.getItem("guild"));
 
 $(document).ready(function(){
-$.ajax({
+    $.ajax({
          url: "https://hayday-8a4d.restdb.io/rest/users.json",
          data: {},
          cors: "no-cors",

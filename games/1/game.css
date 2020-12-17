@@ -15,3 +15,7 @@ body, html {
 a {
     color: black;
 }
+
+.level2 {
+    max-width: 100px;
+}
