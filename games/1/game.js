@@ -11,3 +11,9 @@ if (localStorage.getItem("zndVh91F4Z/ID") == null || localStorage.getItem("zndVh
     .then(res => res.json())
     .then(json => console.log(json));
 }
+
+if (localStorage.getItem('boer') == null) {
+  boerMenu();
+}
+
+function boerMenu() {}
