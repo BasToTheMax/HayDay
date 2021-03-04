@@ -16,4 +16,6 @@ if (localStorage.getItem('boer') == null) {
   boerMenu();
 }
 
-function boerMenu() {}
+function boerMenu() {
+  document.getElementById('modal').style.display='block'
+}
