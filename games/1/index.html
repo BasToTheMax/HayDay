@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
-        <div class="game">
+        <div class="game w3-main">
             <a href="myFarm.html">
                 <img class="level1" src="./text/=====.png">
                 <img class="level2" id="levelImg" src="./text/Level0.png">
@@ -18,6 +18,29 @@
             </a>
         </div>
         <div class="error">Error!</div>
+
+       <!-- Modal -->
+      <div id="modal" class="w3-modal">
+  <div class="w3-modal-content">
+
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('modal').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <h2 id="modal-title">Loading...</h2>
+    </header>
+
+    <div class="w3-container" id="modal-content">
+      <p>This menu opened without setting the content!</p>
+      <p>Please close it!</p>
+    </div>
+
+    <footer class="w3-container w3-teal">
+      <p id="modal-footer">Modal Footer</p>
+    </footer>
+
+  </div>
+</div>
+
         <div class="credits">
             Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
         </div>
