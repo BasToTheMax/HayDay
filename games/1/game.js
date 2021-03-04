@@ -1,3 +1,7 @@
+const title = document.getElementById('modal-title');
+const content = document.getElementById('modal-content');
+const footer = document.getElementById('modal-footer');
+
 if (localStorage.getItem("zndVh91F4Z/ID") == null || localStorage.getItem("zndVh91F4Z/ID") == undefined || localStorage.getItem("zndVh91F4Z/ID") == '') {
     localStorage.setItem("zndVh91F4Z/ID", Math.floor(Math.random() * 100000));
 } else {
