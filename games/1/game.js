@@ -12,7 +12,7 @@ if (localStorage.getItem("zndVh91F4Z/ID") == null || localStorage.getItem("zndVh
     .then(json => console.log(json));
 }
 
-if (localStorage.getItem('boer') == null) {
+if (localStorage.getItem('boer') == '') {
   boerMenu();
 }
 
