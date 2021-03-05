@@ -27,7 +27,7 @@ function boerMenu() {
 function createAccount() {
     var naam = document.getElementById('input_naam');
     
-    if (localStorage('boer') == '' || localStorage('boer') == null) {} else {
+    if (localStorage.getItem('boer') == '' || localStorage.getItem('boer') == null) {} else {
         localStorage.setItem('naam', naam.value);
         document.getElementById('modal').style.display='none';
     }
