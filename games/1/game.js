@@ -27,5 +27,5 @@ function boerMenu() {
   close.style.display='none';
     
   title.innerHTML = 'Welkom!';
-    content = '<h1>Welkom!</h1><h2>Wat is de naam van je boerderij?</h2><input id="input_naam" placeholder="Naam van je boerderij"><hr><h2>Wat ben je?</h2><p id="boer_tekst">Kies:<br></p><button id="button_boer" class="w3-button w3-purple w3-round-xlarge">Boer</button><hr>';
+    content.innerHTML = '<h1>Welkom!</h1><h2>Wat is de naam van je boerderij?</h2><input id="input_naam" placeholder="Naam van je boerderij"><hr><h2>Wat ben je?</h2><p id="boer_tekst">Kies:<br></p><button id="button_boer" class="w3-button w3-purple w3-round-xlarge">Boer</button><hr>';
 }
