@@ -18,7 +18,7 @@ if (localStorage.getItem('boer') == '' || localStorage.getItem('boer') == null) 
 }
 
 function boerMenu() {
-  document.getElementById('modal').style.display='block'
+  document.getElementById('modal').style.display='block';
   close.style.display='none';
     
   title.innerHTML = 'Welkom!';
@@ -27,7 +27,10 @@ function boerMenu() {
 function createAccount() {
     var naam = document.getElementById('input_naam');
     
-    localStorage.setItem('naam', naam.value);
+    if (localStorage('boer') == '' || localStorage('boer') == null) {} else {
+        localStorage.setItem('naam', naam.value);
+        document.getElementById('modal').style.display='none';
+    }
 }
 
 function kies_boer() {
