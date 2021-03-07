@@ -5,6 +5,7 @@ body, html {
 
 .credits {
     position: absolute;
+    color: white;
     bottom: 25px;
     left: 25px;
 }
