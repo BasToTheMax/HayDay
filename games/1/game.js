@@ -20,7 +20,9 @@ if (localStorage.getItem('boer') == '' || localStorage.getItem('boer') == null) 
   document.getElementById("xp").innerText = localStorage.getItem('xp') + ' xp';
   var ty = localStorage.getItem('boer');
   if (ty == 'boer') {
-     document.getElementById('type').src = '';
+     document.getElementById('type').src = 'icons/png/006-farmer.png';
+  } else {
+     document.getElementById('type').src = 'icons/png/006-farmer.png';
   }
 }
 
