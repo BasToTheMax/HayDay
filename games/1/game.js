@@ -22,7 +22,7 @@ if (localStorage.getItem('boer') == '' || localStorage.getItem('boer') == null) 
   if (ty == 'boer') {
      document.getElementById('type').src = 'icons/png/006-farmer.png';
   } else {
-     document.getElementById('type').src = 'icons/png/006-farmer.png';
+     document.getElementById('type').src = 'icons/png/007-farmer.png';
   }
 }
 
