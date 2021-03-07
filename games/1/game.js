@@ -15,6 +15,13 @@ if (localStorage.getItem("zndVh91F4Z/ID") == null || localStorage.getItem("zndVh
 
 if (localStorage.getItem('boer') == '' || localStorage.getItem('boer') == null) {
   boerMenu();
+  localStorage.setItem('xp', 0);
+} else {
+  document.getElementById("xp").innerText = localStorage.getItem('xp') + ' xp';
+  var ty = localStorage.getItem('boer');
+  if (ty == 'boer') {
+     document.getElementById('type').src = '';
+  }
 }
 
 function boerMenu() {
@@ -29,6 +36,7 @@ function createAccount() {
     
         localStorage.setItem('naam', naam.value);
         document.getElementById('modal').style.display='none';
+        document.location = "./index.html";
 }
 
 function kies_boer() {
